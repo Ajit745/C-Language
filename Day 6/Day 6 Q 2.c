@@ -35,8 +35,8 @@ void main()
 		
 		break;
 		case 2 :printf("Internet Recharge ke liye 1 dabaiye\n");
-               printf("Top Up Recharge ke liye 1 dabaiye\n");
-               printf("Special Recharge ke liye 1 dabaiye\n\n");
+               printf("Top Up Recharge ke liye 2 dabaiye\n");
+               printf("Special Recharge ke liye 3 dabaiye\n\n");
                
                printf("Apki Choice Bataiye : ");
                scanf("%d",&choice);
