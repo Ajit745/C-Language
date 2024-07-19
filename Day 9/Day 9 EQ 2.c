@@ -3,7 +3,7 @@
 
 void main()
 {
-	//WAP to calculate the factorial of N using while loop.
+	
 	int i=1;
 	int n;
 	int x;
