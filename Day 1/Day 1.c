@@ -14,5 +14,4 @@ void main()
 	printf("Nationality : Indian\n");
 	printf("Mother Tongue : Hindi\n");
 	printf("Caste : Rajput\n");
-	
 }
