@@ -1,22 +1,19 @@
 #include<stdio.h>
 
 //Write a Program to find the cube of a given number using UDF.
-void cube(int n)
+int cube(int n)
 {
 	int i;
-	for(i=1; i<=10; i++)
-	{
-			printf("%d * %d = %d\n",n,i,n*i);
-	}
+	return n*n*n;
 
 }
 
 int main()
 {
-	int n;
+	int x;
 	printf("Enter Any Number : ");
-	scanf("%d",&n);
-	cube(n);
+	scanf("%d",&x);
+	printf("%d",cube(x));
 
 	return 0;
 }
