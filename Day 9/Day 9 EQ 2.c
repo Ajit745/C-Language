@@ -1,19 +1,14 @@
-#include<stdio.h>
-#include<conio.h>
+# Given string
+s = "Hello World, Hello Python"
 
-void main()
-{
-	//WAP to calculate the factorial of N using while loop.
-	int i=1;
-	int n;
-	int x;
-	printf("Enter n :");
-	scanf("%d",&n);
-	
-	while(i<=n)
-	{
-		x=x*i;
-		i++;
-	}
-	printf(" Factorial of %d is %d",n,x);
-}
+# 1. Center align the string to a width of 20 characters using '*' as fill character
+center_aligned = s.center(20, '*')
+print("Center Aligned String:", center_aligned)
+
+# 2. Count the occurrence of the word 'Hello' in the string
+hello_count = s.count("Hello")
+print("Occurrence of 'Hello':", hello_count)
+
+# 3. Find the length of the string
+string_length = len(s)
+print("Length of the string:", string_length)
