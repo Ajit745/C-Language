@@ -1,20 +1,19 @@
-#include<stdio.h>
-#include<conio.h>
+# Taking input from the user
 
-void main()
-{
-	//WAP to print the multiplication table of N using while loop.
-	int i=1;
-	int n;
-	int x;
-	printf("Enter n :");
-	scanf("%d",&n);
-	
-	while(i<=10)
-	{
-		x=n*i;
-		printf("%d x %d = %d\n",n,i,x);
-		i++;
-	}
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
-}
+# Performing arithmetic operations
+
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+
+division = num1 / num2 if num2 != 0 else "Cannot divide by zero"
+
+# Displaying the results
+
+print(f"Addition: {addition}")
+print(f"Subtraction: {subtraction}")
+print(f"Multiplication: {multiplication}")
+print(f"Division: {division}")
